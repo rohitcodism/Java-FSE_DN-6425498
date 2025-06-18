@@ -1,18 +1,10 @@
-## Getting Started
+# Singleton Pattern Example
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This Java project shows how the Singleton Design Pattern works by making sure only one Logger object is created and used everywhere in the program to keep the logging consistent.
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+## Output
+![Alt text](/Week_1/Design_Patterns_And_Principles/SingletonPatternExample/output/image.png "a title")
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Output shows that logger1 and logger2 refer to the same instance, verifying the Singleton behavior.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
