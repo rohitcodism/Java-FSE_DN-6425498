@@ -7,4 +7,3 @@ This Java project shows how the Singleton Design Pattern works by making sure on
 ![Alt text](/Week_1/Design_Patterns_And_Principles/SingletonPatternExample/output/image.png "a title")
 
 Output shows that logger1 and logger2 refer to the same instance, verifying the Singleton behavior.
-
