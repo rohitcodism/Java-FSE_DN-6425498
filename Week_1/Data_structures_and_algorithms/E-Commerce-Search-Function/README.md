@@ -5,7 +5,7 @@ This Java project demonstrates how to implement and compare `Linear Search` and 
 
 ## Output
 
-![Search Output Screenshot](/output/image.png "Search Output")
+![Search Output Screenshot](/Week_1/Data_structures_and_algorithms/E-Commerce-Search-Function/output/image.png "Search Output")
 
 The output shows the result of both linear search and binary search for a product with the name Laptop and Watch. It confirms that both methods return the correct product if found, demonstrating the effectiveness of the search logic.
 
