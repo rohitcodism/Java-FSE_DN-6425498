@@ -43,3 +43,6 @@ The output shows the result of both linear search and binary search for a produc
 * **Comparison**:
   * Linear search checks each item one by one. It works on unsorted data but becomes slow as the list grows.
   * Binary search is faster but only works when the data is sorted.
+* **Discussion**:
+  * For large datasets where search speed is important and sorting is manageable, binary search is more suitable.
+  * For smaller or dynamic datasets where sorting is not guaranteed, linear search can be used.
