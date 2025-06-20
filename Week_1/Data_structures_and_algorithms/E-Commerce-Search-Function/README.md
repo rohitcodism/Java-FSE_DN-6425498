@@ -18,8 +18,12 @@ The output shows the result of both linear search and binary search for a produc
 ## Analysis
 
 - **Time Complexity**:
-  - Linear Search: O(n)
-  - Binary Search: O(log n)
+
+  | Algorithm       | Best Case | Average Case | Worst Case |
+  |-----------------|-----------|--------------|------------|
+  | Linear Search   | O(1)      | O(n)         | O(n)       |
+  | Binary Search   | O(1)      | O(log n)     | O(log n)   |
+
 - **Comparison**:
   - Linear search checks each item one by one. It works on unsorted data but becomes slow as the list grows.
   - Binary search is faster but only works when the data is sorted.
