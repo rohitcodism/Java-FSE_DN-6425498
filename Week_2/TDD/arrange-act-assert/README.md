@@ -1,4 +1,4 @@
-# Arrange-Act-Assert
+# Exercise 4: Arrange-Act-Assert
 
 This project demonstrates the **Arrange-Act-Assert** (AAA) pattern for writing unit tests in Java.
 
