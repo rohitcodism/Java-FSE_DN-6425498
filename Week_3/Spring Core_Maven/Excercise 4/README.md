@@ -4,4 +4,4 @@ This project sets up a new Maven project called **LibraryManagement** for a libr
 
 ## Output
 
-![Output Screenshot](/library_management/outputs/image.png)
+![Output Screenshot](/Spring%20Core_Maven/Excercise%204/library_management/outputs/image.png)

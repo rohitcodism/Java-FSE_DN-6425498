@@ -9,4 +9,4 @@ This project sets up a simple Spring Framework application for managing a librar
 
 ## Output
 
-![Sample Output](/spring_application_configuration/outputs/image.png)
+![Sample Output](/Spring%20Core_Maven/Excercise%201%20&%202/spring_application_configuration/outputs/image.png)
