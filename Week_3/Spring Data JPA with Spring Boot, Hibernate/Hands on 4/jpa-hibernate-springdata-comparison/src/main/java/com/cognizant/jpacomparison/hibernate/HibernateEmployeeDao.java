@@ -11,18 +11,6 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-/**
- * Hibernate Implementation (ORM Tool that implements JPA)
- * - Uses SessionFactory and Session for persistence operations
- * - Manual transaction management
- * - Hibernate-specific APIs and features
- * - More control over caching and performance tuning
- * 
- * Note: Currently disabled due to Spring Boot configuration conflicts
- * In a real application, you would either use pure Hibernate configuration
- * or ensure proper separation of concerns.
- */
-// @Component - Temporarily disabled
 public class HibernateEmployeeDao {
     
     @Autowired

@@ -23,10 +23,8 @@ public class Employee {
     @Column(name = "emp_salary")
     private Double salary;
     
-    // Default constructor (required by JPA)
     public Employee() {}
     
-    // Constructor with parameters
     public Employee(String name, String email, String department, Double salary) {
         this.name = name;
         this.email = email;
@@ -34,7 +32,6 @@ public class Employee {
         this.salary = salary;
     }
     
-    // Getters and Setters
     public Integer getId() {
         return id;
     }

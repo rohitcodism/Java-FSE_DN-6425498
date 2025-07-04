@@ -6,38 +6,24 @@ import org.springframework.stereotype.Component;
 import jakarta.persistence.*;
 import java.util.List;
 
-/**
- * Pure JPA Implementation (JSR 338 Specification)
- * - Uses EntityManager for persistence operations
- * - Manual transaction management
- * - More boilerplate code
- * - Direct use of JPA API without additional abstractions
- */
 @Component
 public class JpaEmployeeDao {
     
     @PersistenceContext
     private EntityManager entityManager;
     
-    /**
-     * CREATE - Add a new employee using pure JPA
-     */
     public Integer addEmployee(Employee employee) {
         EntityTransaction transaction = null;
         try {
-            // Begin transaction manually
             transaction = entityManager.getTransaction();
             transaction.begin();
             
-            // Persist the entity
             entityManager.persist(employee);
             
-            // Commit transaction
             transaction.commit();
             
             return employee.getId();
         } catch (Exception e) {
-            // Rollback on error
             if (transaction != null && transaction.isActive()) {
                 transaction.rollback();
             }
@@ -45,9 +31,6 @@ public class JpaEmployeeDao {
         }
     }
     
-    /**
-     * READ - Find employee by ID using pure JPA
-     */
     public Employee findEmployeeById(Integer id) {
         try {
             return entityManager.find(Employee.class, id);
@@ -56,9 +39,6 @@ public class JpaEmployeeDao {
         }
     }
     
-    /**
-     * READ - Get all employees using pure JPA
-     */
     public List<Employee> getAllEmployees() {
         try {
             TypedQuery<Employee> query = entityManager.createQuery(
@@ -69,16 +49,12 @@ public class JpaEmployeeDao {
         }
     }
     
-    /**
-     * UPDATE - Update an existing employee using pure JPA
-     */
     public void updateEmployee(Employee employee) {
         EntityTransaction transaction = null;
         try {
             transaction = entityManager.getTransaction();
             transaction.begin();
             
-            // Merge the entity (update)
             entityManager.merge(employee);
             
             transaction.commit();
@@ -90,9 +66,6 @@ public class JpaEmployeeDao {
         }
     }
     
-    /**
-     * DELETE - Remove an employee using pure JPA
-     */
     public void deleteEmployee(Integer id) {
         EntityTransaction transaction = null;
         try {
@@ -113,9 +86,6 @@ public class JpaEmployeeDao {
         }
     }
     
-    /**
-     * QUERY - Find employees by department using JPQL
-     */
     public List<Employee> findEmployeesByDepartment(String department) {
         try {
             TypedQuery<Employee> query = entityManager.createQuery(
