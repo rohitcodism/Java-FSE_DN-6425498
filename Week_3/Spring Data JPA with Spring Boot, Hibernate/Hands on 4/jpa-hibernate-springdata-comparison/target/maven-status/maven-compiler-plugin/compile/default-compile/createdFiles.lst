@@ -1,0 +1,7 @@
+com\cognizant\jpacomparison\hibernate\HibernateEmployeeDao.class
+com\cognizant\jpacomparison\JpaComparisonApplication.class
+com\cognizant\jpacomparison\config\HibernateConfig.class
+com\cognizant\jpacomparison\jpa\JpaEmployeeDao.class
+com\cognizant\jpacomparison\springdata\EmployeeService.class
+com\cognizant\jpacomparison\model\Employee.class
+com\cognizant\jpacomparison\springdata\EmployeeRepository.class
