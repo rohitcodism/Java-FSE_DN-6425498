@@ -6,14 +6,7 @@ import org.springframework.context.annotation.Configuration;
 
 import jakarta.persistence.EntityManagerFactory;
 
-/**
- * Hibernate Configuration
- * This configuration is needed for the HibernateEmployeeDao to work
- * It creates a SessionFactory bean from the existing EntityManagerFactory
- * 
- * Note: Currently disabled due to Spring Boot configuration conflicts
- */
-// @Configuration - Temporarily disabled
+
 public class HibernateConfig {
     
     @Bean("hibernateSessionFactory")
