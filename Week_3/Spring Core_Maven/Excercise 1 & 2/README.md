@@ -12,4 +12,4 @@ This project sets up a simple Spring Framework application for managing a librar
 
 ## Output
 
-![Sample Output](/Spring%20Core_Maven/Excercise%201%20&%202/outputs/image.png)
+![Sample Output](/Week_3/Spring%20Core_Maven/Excercise%201%20&%202/outputs/image.png)
