@@ -6,7 +6,6 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import com.cognizant.country_code.model.Country;
 
 @RestController
@@ -18,7 +17,7 @@ public class CountryController {
     public Country getCountryIndia() {
         LOGGER.info("START getCountryIndia");
         ApplicationContext context = new ClassPathXmlApplicationContext("country.xml");
-        Country country = context.getBean("country", Country.class);
+        Country country = context.getBean("country1", Country.class);
         LOGGER.info("END getCountryIndia");
         return country;
     }
