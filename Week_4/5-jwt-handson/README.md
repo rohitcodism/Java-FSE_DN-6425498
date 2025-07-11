@@ -32,6 +32,6 @@ curl -s -u user:pwd http://localhost:8090/authenticate
 }
 ```
 
-## Output Screenshot
+## Output
 
 ![JWT Token Output](/Week_4/5-jwt-handson/outputs/image.png)
