@@ -1,4 +1,4 @@
-# Git Merge Conflict Resolution - Hands-On Lab
+# Assignment 4: Git Merge Conflict Resolution - Hands-On Lab
 
 # Overview
 
