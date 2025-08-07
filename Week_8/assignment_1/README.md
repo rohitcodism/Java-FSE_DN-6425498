@@ -1,4 +1,4 @@
-# Week 8 - Assignment 1: Git Setup and Basic Operations
+# Assignment 1: Git Setup and Basic Operations
 
 ## Overview
 This assignment demonstrates the basic setup and configuration of Git, including user configuration, editor integration, and fundamental Git operations like creating a repository, adding files, and committing changes.
